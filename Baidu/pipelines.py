@@ -28,7 +28,7 @@ class BaiduPipeline:
         else:
             line = [item['subject'], item['url'], item['title'], item['source'], item['publish_time'], item['brief']]
             self.ws.append(line)
-            self.wb.save('BaiduResult.xlsx')
+            self.wb.save('BaiduResults.xlsx')
         
 
 
