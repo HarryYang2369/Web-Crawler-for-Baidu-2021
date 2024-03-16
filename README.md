@@ -7,7 +7,7 @@ Here I will write an introduction to every file and its function. Here is the st
 
 
 ### BaiduResult.xlsx ###
-This is the file contains the result the scrapy code get from the search engine. Here is a list of columns:
+This is the file contains the result the scrapy code get from the search engine.
 
 Column Name   | Discription
 ------------- | -------------
@@ -17,6 +17,8 @@ Column Name   | Discription
 `Source` | The source of the link. (Currently unavailable)
 `Publish Time` | The date the link is published. (Currently unavailable)
 `Introduction` | The introduction to the content of the information the link is directing to.
+
+### config_baidu.ini ###
 
 ### scrapy.cfg ### 
 (Automatically created by: scrapy startproject)
