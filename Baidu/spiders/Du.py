@@ -3,17 +3,17 @@ import configparser
 import sys
 import os
 
-# 获取当前脚本的绝对路径
+# Get the absolute path of the current script
 script_path = os.path.abspath(__file__)
-# 获取脚本的目录
+# Get the directory of the script
 script_dir = os.path.split(script_path)[0]
-# 获取项目的根目录
+# Get the root directory of the project
 root_dir = os.path.split(script_dir)[0]
 
-# 将项目的根目录添加到sys.path
+# Add the root directory of the project to sys.path
 sys.path.append(root_dir)
 
-# 现在Python能找到items.py，所以你可以导入它
+# Now Python can find items.py, so you can import it
 from items import BaiduItem
 
 
